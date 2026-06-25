@@ -1,0 +1,29 @@
+{
+  "description": "ManifestIt substrate fixes — (1) vision bridge: auto-describes images a text-only model can't see via a PostToolUse Read hook; (2) ForceLink: Stop hook that blocks turns ending with bare file paths, forcing clickable URLs. No agent opt-in; runs for every session.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/vision_bridge_hook.py",
+            "timeout": 130
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/forcelink.sh",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "manifest-it",
+  "version": "0.1.0",
+  "description": "Ergonomic-fix grab bag for the Claude Code substrate. Bundles: (1) vision bridge — text-only models auto-describe images instead of dead-ending on 'model does not support vision'; (2) image-gen bridge — routes image generation to gpt-image-2; (3) ForceLink — Stop hook that blocks turns ending with bare file paths, forcing clickable URLs; (4) a sanitized, distilled operating-ethos CLAUDE.md (a16z/Garry Tan hybrid). A shipping manifest of small substrate fixes.",
+  "author": {
+    "name": "Dapper Labs",
+    "url": "https://github.com/dapperlabs"
+  },
+  "license": "DAPPER",
+  "homepage": "https://github.com/dapperlabs/dapper-claude-code-plugins",
+  "repository": "https://github.com/dapperlabs/dapper-claude-code-plugins",
+  "keywords": ["vision", "image", "capability", "bridge", "substrate", "vlm", "fallback", "forcelink", "urls", "ergonomics", "ethos", "hooks"]
+}
