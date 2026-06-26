@@ -1,13 +1,13 @@
 {
-  "name": "manifest-it",
-  "version": "0.1.0",
-  "description": "Ergonomic-fix grab bag for the Claude Code substrate. Bundles: (1) vision bridge — text-only models auto-describe images instead of dead-ending on 'model does not support vision'; (2) image-gen bridge — routes image generation to gpt-image-2; (3) ForceLink — Stop hook that blocks turns ending with bare file paths, forcing clickable URLs; (4) a sanitized, distilled operating-ethos CLAUDE.md (a16z/Garry Tan hybrid). A shipping manifest of small substrate fixes.",
+  "name": "manifest-kit",
+  "version": "0.2.0-dev",
+  "description": "Roham's toolkit for AI behavior — structural hooks that make agents behave correctly. Vision bridge, image-gen bridge, ForceLink, locate-yourself gate, search-before-assert, finish-not-flag, deliverable-quality, agent-verify cognitive verification, reconciliation checker. Ships a seed CLAUDE.md for team onboarding. Spec: SPEC-022.",
   "author": {
     "name": "Dapper Labs",
     "url": "https://github.com/dapperlabs"
   },
   "license": "DAPPER",
-  "homepage": "https://github.com/dapperlabs/dapper-claude-code-plugins",
-  "repository": "https://github.com/dapperlabs/dapper-claude-code-plugins",
-  "keywords": ["vision", "image", "capability", "bridge", "substrate", "vlm", "fallback", "forcelink", "urls", "ergonomics", "ethos", "hooks"]
+  "homepage": "https://github.com/dapperlabs/manifest-kit",
+  "repository": "https://github.com/dapperlabs/manifest-kit",
+  "keywords": ["vision", "image", "capability", "bridge", "substrate", "forcelink", "urls", "ethos", "hooks", "agent-verify", "reconciliation", "boot-ritual", "claude-md"]
 }
